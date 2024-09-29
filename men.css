@@ -1,0 +1,57 @@
+/*Mens Products */
+
+.backTo > button{
+    background-color: rgb(9, 9, 63);
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    text-align: center;
+    width: 45px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.backTo > button >a{
+    color: white;
+    text-decoration: none;
+}
+
+.menProducts > h1{
+    color: rgb(9, 9, 63);
+    margin-left: 20px;
+}
+
+.menProducts > p{
+    color: grey;
+    margin-left: 20px;
+    line-height: 23px;
+}
+
+
+.menProducts > h2{
+    text-align: center;
+    color: rgb(9, 9, 63);
+}
+
+.musk > img{
+    width: 35vw;
+    height: 20vh;
+    background-color: blue;
+
+}
+.blaze > img{
+    width: 35vw;
+    height: 20vh;
+    background-color: blue;
+    float: left;
+}
+
+
+
+.forMen > h4{
+    
+}
+
+input{
+    width:10vw;
+}

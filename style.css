@@ -1,0 +1,131 @@
+:root{
+    --navyblue:rgb(9, 9, 63);
+    --lightblue:rgb(33, 33, 66);
+    --goldyellow:rgb(242, 213, 48);
+    --lightgrey:#808080;
+}
+body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+nav > h1{
+    color: var(--goldyellow);
+}
+.logoSpan{
+    color: var(--navyblue);
+}
+
+
+h3 > a{
+    text-decoration: none;
+    color: var(--navyblue);
+}
+.main{
+    background-color: blanchedalmond;
+    width: 100vw;
+    height: 105vw;
+}
+
+.imgintro > img{
+    width: 100vw;
+    height: 105vw;
+    object-fit: cover;
+
+}
+
+.category > h2{
+    text-align: center;
+}
+
+.bath > img{
+    box-sizing: border-box;
+    width: 170px;
+    height: 180px;
+}
+
+.firstPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstPage > h1{
+    color: var(--navyblue);
+}
+
+.firstPage > button{
+    color: white;
+    background-color: var(--navyblue);
+    width: 8rem;
+    height: 3.5rem;
+    margin-top: 3px;
+    padding-top: 1.3rem;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.bath{
+    background-color: antiquewhite;
+    width: 170px;
+    height: 180px;
+}
+
+.exploreBBSC{
+    display: flex;
+    gap: 20px;
+    padding-left: 18px;
+}
+
+.TandS{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.aPara{
+    display: flex;
+    flex-direction: row;
+}
+.aPara > p{
+    line-height: 23px;
+    color: grey;
+}
+
+.aPara > span{
+    color:var(--navyblue);
+    font-size: 90px;
+    font-weight: 900;
+    margin-left: 23px;
+    margin-right: 10px;
+}
+
+.more > a{
+    text-decoration: none;
+    color: var(--navyblue);
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+}
+#question{
+    color: var(--navyblue);
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+.momAndD{
+    width: 90vw;
+    padding-left: 20px;
+}
+
+.TandS > h4{
+    color: rgb(9, 9, 63);
+    height: 90px;
+    text-align: center;
+}
+
+
+
+
+
